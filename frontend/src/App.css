@@ -1,0 +1,76 @@
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.claim {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.claim p {
+  margin: 0.5rem 0;
+}
+
+.sources ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sources li {
+  margin: 0.5rem 0;
+}
+
+.sources a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sources a:hover {
+  text-decoration: underline;
+}
+
+.badge.green {
+  color: green;
+}
+
+.badge.yellow {
+  color: #ffc107;
+}
+
+.badge.red {
+  color: red;
+}
+
+.status.true {
+  color: green;
+}
+
+.status.false {
+  color: red;
+}
+
+.status.misleading {
+  color: orange;
+}
