@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "News Truth Checker",
+  "version": "1.0",
+  "description": "Check if news is true or fake using AI backend.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}
